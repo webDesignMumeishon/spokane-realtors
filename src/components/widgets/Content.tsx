@@ -44,9 +44,7 @@ const Content = ({
                 className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
                 style={{width: "50%"}}
                 src={image.src}
-                objectFit="cover"
                 alt={image.alt}
-                sizes="(max-width: 768px) 100vw, 432px"
                 placeholder="blur"
                 quality={50}
               />
