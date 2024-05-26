@@ -37,13 +37,13 @@ const Content = ({
             iconClass="flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-full bg-primary-900 text-gray-50 mr-4 mt-1 p-1"
           />
         </div>
-        <div className="mt-10 md:mt-0 md:basis-1/2 w-[50%]">
+        <div className="mt-10 md:mt-0 md:basis-1/2">
           {image && (
-            <div className="relative m-auto max-w-4xl w-[50%]">
+            <div className="relative m-auto max-w-4xl">
               <Image
                 className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
+                style={{width: "50%"}}
                 src={image.src}
-                layout="fill" 
                 objectFit="cover"
                 alt={image.alt}
                 sizes="(max-width: 768px) 100vw, 432px"
