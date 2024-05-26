@@ -37,7 +37,7 @@ const Content = ({
             iconClass="flex-shrink-0 w-7 h-7 flex items-center justify-center rounded-full bg-primary-900 text-gray-50 mr-4 mt-1 p-1"
           />
         </div>
-        <div aria-hidden="true" className="mt-10 md:mt-0 md:basis-1/2">
+        <div className="mt-10 md:mt-0 md:basis-1/2 w-[50%]">
           {image && (
             <div className="relative m-auto max-w-4xl w-[50%]">
               <Image
