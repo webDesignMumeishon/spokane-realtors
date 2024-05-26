@@ -43,8 +43,8 @@ const Content = ({
               <Image
                 className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
                 src={image.src}
-                width={828}
-                height={828}
+                layout="fill" 
+                objectFit="cover"
                 alt={image.alt}
                 sizes="(max-width: 768px) 100vw, 432px"
                 placeholder="blur"
