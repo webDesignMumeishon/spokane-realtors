@@ -33,9 +33,9 @@ const Hero = ({ title, subtitle, tagline, callToAction, callToAction2, image }: 
                 className="mx-auto h-auto w-full rounded-md bg-gray-400 dark:bg-slate-700"
                 src={image.src}
                 alt={image.alt}
-                width={1024}
-                height={607}
-                sizes="(max-width: 64rem) 100vw, 1024px"
+                width={512}
+                height={500}
+                // sizes="(max-width: 64rem) 100vw, 1024px"
                 loading="eager"
                 placeholder="blur"
                 priority
