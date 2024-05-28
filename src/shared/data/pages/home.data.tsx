@@ -33,7 +33,7 @@ import nextJsLogo from '~/assets/images/nextjs-logo.png';
 import reactLogo from '~/assets/images/react-logo.png';
 import tailwindCssLogo from '~/assets/images/tailwind-css-logo.png';
 import typescriptLogo from '~/assets/images/typescript-logo.png';
-import cameraFrontImg from '~/assets/images/real-state-agents.jpeg';
+import realStateAgentAndFamily from '~/assets/images/real-state-spokane-people.png';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
 import gasImg from '~/assets/images/gas.jpg';
 
@@ -211,7 +211,7 @@ export const contentHomeOne: ContentProps = {
     },
   ],
   image: {
-    src: cameraFrontImg,
+    src: realStateAgentAndFamily,
     alt: 'Colorful Image',
   },
   isReversed: false,

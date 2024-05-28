@@ -42,7 +42,6 @@ const Content = ({
             <div className="relative m-auto max-w-4xl">
               <Image
                 className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
-                style={{width: "50%"}}
                 src={image.src}
                 width={828}
                 height={828}
