@@ -73,10 +73,10 @@ export const contact2Contact: ContactProps = {
       label: 'What is the reason for your contact?',
       radios: [
         {
-          label: 'General inquiries',
+          label: 'Buy property',
         },
         {
-          label: 'Technical help',
+          label: 'Sell property',
         },
         {
           label: 'Claims',
@@ -98,10 +98,10 @@ export const contact2Contact: ContactProps = {
         label: 'Have you read our privacy policy?',
         value: '',
       },
-      {
-        label: 'Do you want to receive monthly updates by email?',
-        value: '',
-      },
+      // {
+      //   label: 'Do you want to receive monthly updates by email?',
+      //   value: '',
+      // },
     ],
     btn: {
       title: 'Send Message',
