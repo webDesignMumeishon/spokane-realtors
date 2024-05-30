@@ -6,8 +6,8 @@ addons.setConfig({
     base: 'light',
 
     // Logo
-    brandTitle: 'TailNext',
-    brandUrl: 'https://github.com/onwidget/tailnext',
+    brandTitle: 'Spokane Realtors',
+    brandUrl: 'https://spokane-realtors.com/',
     brandTarget: '_blank',
   }),
 });

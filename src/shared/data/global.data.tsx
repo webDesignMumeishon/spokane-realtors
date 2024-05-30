@@ -70,8 +70,8 @@ export const headerData: HeaderProps = {
   actions: [
     {
       text: 'BOOK NOW',
-      href: 'https://github.com/onwidget/tailnext',
-      targetBlank: true,
+      href: '/contact',
+      targetBlank: false,
     },
   ],
   isSticky: true,
@@ -82,7 +82,7 @@ export const headerData: HeaderProps = {
 
 // Footer data
 export const footerData: FooterProps = {
-  title: 'TailNext',
+  title: 'Spokane Realtors',
   links: [
     {
       label: 'Terms & Conditions',

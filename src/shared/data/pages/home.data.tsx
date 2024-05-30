@@ -61,9 +61,9 @@ export const heroHome: HeroProps = {
   ),
   callToAction: {
     text: 'BOOK NOW',
-    href: 'https://github.com/onwidget/tailnext',
+    href: '/contact',
     // icon: IconDownload,
-    targetBlank: true,
+    targetBlank: false,
   },
   callToAction2: {
     text: 'Services',
@@ -297,13 +297,13 @@ export const testimonialsHome: TestimonialsProps = {
   header: {
     title: 'What our customers say about us',
     subtitle:
-      'Etiam sed odio et dolor auctor gravida. Curabitur tincidunt elit non risus pharetra sodales. Etiam sit amet mattis massa.',
+      '',
   },
   testimonials: [
     {
       name: 'Tayla Kirsten',
       job: 'Marketing Manager',
-      testimonial: `I'm impressed by the speed and performance of these templates. My website now loads in the blink of an eye, significantly enhancing my visitors' experience. Thanks to TailNext, my online business is thriving.`,
+      testimonial: `Spokane Realtors made the process of buying our first home smooth and stress-free. Their expertise and dedication were evident every step of the way. Highly recommend!`,
       image: {
         src: 'https://images.unsplash.com/photo-1619734086067-24bf8889ea7d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Tayla Kirsten',
@@ -313,7 +313,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Silver Jordan',
       job: 'Senior Marketer',
-      testimonial: `I had never found it so easy to customize a website. TailNext's templates are incredibly flexible, and with Tailwind CSS, I've managed to give my website the look and feel I always wanted. Highly recommended!`,
+      testimonial: `As a first-time home seller, I was overwhelmed by the process, but Spokane Realtors guided me through each step. Their knowledge and professionalism were invaluable.`,
       image: {
         src: 'https://images.unsplash.com/photo-1565049786474-1dea82a8b995?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Silver Jordan',
@@ -323,7 +323,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Kelsey Arden',
       job: 'Co-Founder & CEO',
-      testimonial: `As a beginner in web development, I really needed clear guidance. Tailnext made it possible. I was able to install and customize my website seamlessly, and I'm thrilled with the results!`,
+      testimonial: `Working with Spokane Realtors was a fantastic experience. They listened to our needs and found us the perfect home in no time. We couldn’t be happier!`,
       image: {
         src: 'https://images.unsplash.com/photo-1659057106920-da022cfbc0cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Kelsey Arden',
@@ -333,7 +333,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Sarah Johnson',
       job: 'Business Owner',
-      testimonial: `They've not only saved me a ton of time but have also made my websites look incredibly professional. The level of detail and thought that went into designing these templates is truly impressive.`,
+      testimonial: `The team at Spokane Realtors went above and beyond to help us sell our home quickly and for a great price. Their marketing strategies and negotiation skills are top-notch.`,
       image: {
         src: 'https://images.unsplash.com/photo-1572417884940-c24659be6068?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Sarah Johnson',
@@ -343,7 +343,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Keith Young',
       job: 'Freelance Developer',
-      testimonial: `The clean code and integration with Next.js make my projects a breeze. Plus, the responsive design ensures that my clients' websites look amazing on any device. These templates have become my secret weapon for success!`,
+      testimonial: `I relocated to Spokane for work and had a tight timeline to find a new home. Spokane Realtors were incredibly responsive and efficient, making my move seamless.`,
       image: {
         src: 'https://images.unsplash.com/photo-1694287877106-ee22f764aef1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Keith Young',
@@ -353,7 +353,7 @@ export const testimonialsHome: TestimonialsProps = {
     {
       name: 'Lisa Gordon',
       job: 'Project Manager',
-      testimonial: `Their templates are not only stunning but also user-friendly. The support I received from their community has been exceptional. I'm proud to say that I've built my dream website with TailNext.`,
+      testimonial: `From start to finish, Spokane Realtors provided exceptional service. Their attention to detail and commitment to their clients are unmatched. I highly recommend them.`,
       image: {
         src: 'https://images.unsplash.com/photo-1665984867752-6370ab5ae35e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80',
         alt: 'Lisa Gordon',
@@ -370,33 +370,33 @@ export const faqs2Home: FAQsProps = {
   header: {
     title: 'Frequently Asked Questions',
     subtitle:
-      'Duis turpis dui, fringilla mattis sem nec, fringilla euismod neque. Morbi tincidunt lacus nec tortor scelerisque pulvinar.',
+      '',
     tagline: 'FAQS',
   },
   items: [
     {
-      title: 'What do I need to start?',
-      description: `Nunc mollis tempor quam, non fringilla elit sagittis in. Nullam vitae consectetur mi, a elementum arcu. Sed laoreet, ipsum et vehicula dignissim, leo orci pretium sem, ac condimentum tellus est quis ligula.`,
+      title: 'How do I start the process of buying a home with Spokane Realtors?',
+      description: `To start the process, simply contact us through our website or give us a call. Our team will schedule an initial consultation to understand your needs and preferences.`,
     },
     {
-      title: 'How to install the NextJS + Tailwind CSS template?',
-      description: `Interdum et malesuada fames ac ante ipsum primis in faucibus. Integer eleifend vestibulum nisl in iaculis. Mauris dictum ac purus vestibulum auctor. Praesent imperdiet lectus et massa faucibus, quis viverra massa rhoncus.`,
+      title: 'What services do Spokane Realtors offer?',
+      description: `We offer a range of services including buying and selling homes, property management, market analysis, and real estate consultations.`,
     },
     {
-      title: "What's something that you completely don't understand?",
-      description: `Mauris vitae eros a dui varius luctus. Suspendisse rutrum, sapien nec blandit bibendum, justo sapien sollicitudin erat, id aliquam sapien purus quis leo. Aliquam vulputate vestibulum consectetur.`,
+      title: "How long does it typically take to buy or sell a home?",
+      description: `The timeline can vary based on several factors. On average, buying a home can take 30-60 days from offer to closing, while selling a home can take 60-90 days. We strive to make the process as quick and efficient as possible.`,
     },
     {
-      title: "What's an example of when you changed your mind?",
-      description: `Nunc dapibus lacinia ipsum ut elementum. Integer in pretium sapien. Ut pretium nisl mauris, ut rutrum justo condimentum id. Etiam aliquet, arcu at iaculis laoreet, est arcu egestas sapien, eget sollicitudin odio orci et nunc.`,
+      title: "What areas do you serve?",
+      description: `We primarily serve Spokane and the surrounding areas, including Spokane Valley, Liberty Lake, and Cheney.`,
     },
     {
-      title: 'What is something that you would really like to try again?',
-      description: `Duis in maximus mauris, id eleifend mauris. Nam a fringilla arcu. Curabitur convallis, tellus non aliquet rhoncus, lacus massa auctor eros, in interdum lectus augue sed augue. Fusce tempor ex id faucibus efficitur.`,
+      title: 'How do you determine the value of my home?',
+      description: `We conduct a comprehensive market analysis considering factors such as recent sales, current market trends, and the unique features of your property to provide an accurate valuation.`,
     },
     {
-      title: 'If you could only ask one question to each person you meet, what would that question be?',
-      description: `Nullam imperdiet sapien tincidunt erat dapibus faucibus. Vestibulum a sem nec lorem imperdiet scelerisque non sed lacus. Ut pulvinar id diam vitae auctor. Nam tempus, neque et elementum consectetur, ex ipsum pulvinar risus, vel sodales ligula tortor eu eros.`,
+      title: 'What are the costs associated with buying or selling a home?',
+      description: `For buyers, costs may include inspection fees, appraisal fees, and closing costs. Sellers typically pay for agent commissions and any repairs or improvements needed. We provide a detailed breakdown during our consultations.`,
     },
   ],
 };
