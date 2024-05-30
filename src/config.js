@@ -6,5 +6,5 @@ module.exports.SITE = {
   trailingSlash: false,
 
   title: 'Spokane Realtors',
-  description: 'Spokane Realtors - Your Trusted Real Estate Experts',
+  description: 'Your Trusted Real Estate Experts',
 };
