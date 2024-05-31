@@ -6,6 +6,10 @@ import {
   IconComponents,
   IconListCheck,
   IconRocket,
+  IconHomeSearch,
+  IconWallet,
+  IconMapSearch,
+  IconBuildingEstate
 } from '@tabler/icons-react';
 
 import {
@@ -17,19 +21,18 @@ import {
   TestimonialsProps,
 } from '~/shared/types';
 
-import heroImg from '~/assets/images/hero.jpg';
+import heroImg from '~/assets/images/spokane-hero-services.png';
 import cameraFrontImg from '~/assets/images/camera-front.jpg';
 import cameraBackImg from '~/assets/images/camera-back.jpg';
 
 // Hero data on Services page *******************
 export const heroServices: HeroProps = {
-  title: 'Elevate your projects with our stunning templates',
-  subtitle:
-    'Donec aliquam pharetra nibh quis vestibulum. Praesent hendrerit sem at lacus ullamcorper egestas. Morbi lacinia ipsum in nulla gravida, ac sagittis turpis pretium. ',
+  title: 'Professional Real Estate Solutions in Spokane, WA',
+  subtitle: 'Helping You Find Your Dream Home with Ease and Confidence',
   callToAction: {
     text: 'Start Exploring',
-    href: 'https://github.com/onwidget/tailnext',
-    targetBlank: true,
+    href: '/contact',
+    targetBlank: false,
   },
   image: {
     src: heroImg,
@@ -45,34 +48,34 @@ export const features2Services: FeaturesProps = {
   },
   items: [
     {
-      title: 'Next.Js + Tailwind CSS Integration',
-      description: 'Nullam non sodales massa. Ut justo neque, elementum et vehicula vel, pellentesque non orci.',
-      icon: IconBrandTailwind,
+      title: 'Buying a Home',
+      description: 'We offer personalized home searches, expert local advice, and skilled negotiation to help you find and purchase your dream home.',
+      icon: IconHomeSearch,
     },
     {
-      title: 'Ready-to-use Components',
-      description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      icon: IconComponents,
+      title: 'Real Estate Investment',
+      description: 'Gain access to exclusive investment opportunities with detailed market analysis and ongoing support to grow your real estate portfolio.',
+      icon: IconWallet,
     },
     {
-      title: 'Best Practices',
-      description: 'Morbi sit amet arcu vitae metus molestie auctor sit amet in risus. Sed vel lacinia purus.',
-      icon: IconListCheck,
+      title: 'Relocation Services',
+      description: 'We provide area tours, temporary housing assistance, and local insights to ensure a smooth transition to Spokane.',
+      icon: IconMapSearch,
     },
     {
-      title: 'Excellent Page Speed',
-      description: 'Phasellus id cursus urna. Nullam feugiat tellus sed euismod venenatis.',
-      icon: IconRocket,
+      title: 'Property Management',
+      description: 'Our comprehensive management services include tenant screening, rent collection, and property maintenance, ensuring your investment is well cared for.',
+      icon: IconBuildingEstate,
     },
     {
-      title: 'Search Engine Optimization (SEO)',
+      title: 'Custom Real Estate Solutions',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi sagittis, quam nec venenatis lobortis, mi risus tempus nulla.',
+        'We tailor our services to meet your unique needs, offering personalized strategies for buying, selling, and investing in Spokane real estate.',
       icon: IconArrowsRightLeft,
     },
     {
-      title: 'Open to new ideas and contributions',
-      description: 'Maecenas urna augue, commodo vitae lectus euismod, tempor aliquam arcu.',
+      title: 'Customized Solutions',
+      description: 'Tailored real estate strategies to meet your unique buying, selling, or investment needs in Spokane.',
       icon: IconBulb,
     },
   ],
@@ -281,8 +284,7 @@ export const callToActionServices: CallToActionProps = {
   id: 'callToAction-on-services',
   hasBackground: false,
   title: 'Still have questions?',
-  subtitle:
-    'Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut in leo odio. Cras finibus ex a ante convallis ullamcorper.',
+  subtitle: 'We are Here to Help!',
   callToAction: {
     text: 'Contact us',
     href: '/contact',
