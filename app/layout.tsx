@@ -17,11 +17,22 @@ export interface LayoutProps {
 }
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://spokane-realtors.com/'),
+  alternates: {
+    canonical: '/',
+    languages: {
+      'en-US': '/en-US',
+      'de-DE': '/de-DE',
+    },
+  },
   title: {
     template: `%s — ${SITE.name}`,
     default: SITE.title,
   },
   description: SITE.description,
+  openGraph: {
+    images: '/opengraph-image.png'
+  }
 };
 
 export default function RootLayout({ children }: LayoutProps) {
