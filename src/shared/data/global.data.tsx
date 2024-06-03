@@ -33,10 +33,6 @@ export const headerData: HeaderProps = {
           href: '/services',
         },
         {
-          label: 'About us',
-          href: '/about',
-        },
-        {
           label: 'Contact us',
           href: '/contact',
         },
