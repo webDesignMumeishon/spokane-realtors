@@ -617,12 +617,12 @@ export const contactHome: ContactProps = {
   items: [
     {
       title: 'Our Address',
-      description: ['1230 Maecenas Street Donec Road', 'New York, EEUU'],
+      description: ['906 W Main Ave', 'Spokane WA, EEUU'],
       icon: IconMapPin,
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (123) 456-7890', 'Mail: tailnext@gmail.com'],
+      description: ['Mobile: +1 (509) 294-3442'],
       icon: IconPhoneCall,
     },
     {
