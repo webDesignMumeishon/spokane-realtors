@@ -39,3 +39,9 @@ You have the right to:
 
 ## Changes to This Privacy Policy
 We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated revision date. We encourage you to review this policy periodically to stay informed about how we are protecting your information.
+
+## Contact Us
+If you have any questions or concerns about these Terms and Conditions, please contact us at:
+
+Spokane Realtors  
+Phone: (509) 294-3442

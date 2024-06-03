@@ -26,3 +26,9 @@ We may update these Terms and Conditions from time to time. Any changes will be 
 
 ## Governing Law
 These Terms and Conditions are governed by and construed in accordance with the laws of the State of Washington, without regard to its conflict of law principles. You agree to submit to the exclusive jurisdiction of the courts located in Spokane, Washington, for the resolution of any disputes arising out of or relating to these Terms and Conditions or your use of our website.
+
+## Contact Us
+If you have any questions or concerns about these Terms and Conditions, please contact us at:
+
+Spokane Realtors  
+Phone: (509) 294-3442
