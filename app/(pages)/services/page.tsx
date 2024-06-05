@@ -6,6 +6,7 @@ import Features2 from '~/components/widgets/Features2';
 import Features4 from '~/components/widgets/Features4';
 import Hero from '~/components/widgets/Hero';
 import Testimonials from '~/components/widgets/Testimonials';
+import { SITE } from '~/config';
 import {
   callToActionServices,
   contentServicesOne,
@@ -19,6 +20,10 @@ import {
 
 export const metadata: Metadata = {
   title: 'Services',
+  alternates: {
+    canonical: `${SITE.origin}services`,
+  },
+  keywords: ['real state', 'services', 'Investment', 'Buying', 'Management']
 };
 
 const Page = () => {
