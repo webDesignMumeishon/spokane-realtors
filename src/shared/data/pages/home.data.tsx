@@ -622,14 +622,16 @@ export const contactHome: ContactProps = {
     },
     {
       title: 'Contact',
-      description: ['Mobile: +1 (509) 294-3442'],
+      description: ['Mobile: +1 (509) 294-3442', 'Email: info@spokane-realtors.com'],
       icon: IconPhoneCall,
     },
+
     {
       title: 'Working hours',
       description: ['Monday - Friday: 08:00 - 17:00', 'Saturday & Sunday: 08:00 - 12:00'],
       icon: IconClock,
     },
+
   ],
   form: {
     title: 'Ready to Get Started?',
