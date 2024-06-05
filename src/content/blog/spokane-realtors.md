@@ -5,6 +5,7 @@ description: 'Lorem ipsum dolor sit amet'
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
 image: 'https://res.cloudinary.com/dlvd5p3fl/image/upload/v1717110297/spokane-realtors_nfpcng.jpg'
 tags: [markdown, blog]
+keywords: [spokane, realtors, real state, washington]
 ---
 
 # Spokane Realtors: Your Guide to Finding the Best Real Estate Agent in Spokane
