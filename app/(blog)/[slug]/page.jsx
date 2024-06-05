@@ -1,6 +1,7 @@
 import md from 'markdown-it';
 import Image from 'next/image';
 import { notFound } from 'next/navigation';
+import { SITE } from '~/config.js';
 
 import { findPostBySlug, findLatestPosts } from '~/utils/posts';
 
@@ -17,7 +18,11 @@ export async function generateMetadata({ params }) {
   if (!post) {
     return notFound();
   }
-  return { title: post.title, description: post.description };
+  return {
+    title: post.title, description: post.description, alternates: {
+      canonical: `${SITE.origin}${params.slug}`,
+    },
+  };
 }
 
 export async function generateStaticParams() {
