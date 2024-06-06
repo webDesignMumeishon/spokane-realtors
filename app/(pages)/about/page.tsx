@@ -10,6 +10,7 @@ import Stats from '~/components/widgets/Stats';
 import Steps from '~/components/widgets/Steps';
 import Team2 from '~/components/widgets/Team2';
 import Testimonials2 from '~/components/widgets/Testimonials2';
+import { SITE } from '~/config';
 import {
   contactAbout,
   faqsAbout,
@@ -26,6 +27,9 @@ import {
 
 export const metadata: Metadata = {
   title: `About us`,
+  alternates: {
+    canonical: `${SITE.origin}about`,
+  },
 };
 
 const Page = () => {

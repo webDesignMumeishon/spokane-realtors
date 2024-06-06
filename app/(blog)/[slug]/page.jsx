@@ -42,8 +42,7 @@ export default async function Page({ params }) {
       <article>
         <header className={post.image ? 'text-center' : ''}>
           <p className="mx-auto max-w-3xl px-4 sm:px-6">
-            <time dateTime={post.publishDate}>{getFormattedDate(post.publishDate)}</time> ~{' '}
-            {/* {Math.ceil(post.readingTime)} min read */}
+            <time dateTime={post.publishDate}>{getFormattedDate(post.publishDate)}</time>
           </p>
           <h1 className="leading-tighter font-heading mx-auto mb-8 max-w-3xl px-4 text-4xl font-bold tracking-tighter sm:px-6 md:text-5xl">
             {post.title}
