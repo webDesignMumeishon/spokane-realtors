@@ -617,7 +617,7 @@ export const contactHome: ContactProps = {
   items: [
     {
       title: 'Our Address',
-      description: ['906 W Main Ave', 'Spokane WA, EEUU'],
+      description: ['103 E Indiana Ave # B', 'Spokane WA, EEUU'],
       icon: IconMapPin,
     },
     {
