@@ -5,6 +5,7 @@ description: 'Discover the top Spokane Realtors and get expert advice on navigat
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
 image: 'https://res.cloudinary.com/dlvd5p3fl/image/upload/v1717110297/spokane-realtors_nfpcng.jpg'
 keywords: [spokane, realtors, real state, washington]
+categories: 'realtors'
 ---
 
 # Spokane Realtors: Your Guide to Finding the Best Real Estate Agent in Spokane
