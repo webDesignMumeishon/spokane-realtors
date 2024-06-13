@@ -3,7 +3,7 @@ publishDate: '2024-06-12'
 title: 'Realtors Code of Ethics: Understanding the Guidelines for Professional Conduct'
 description: 'An in-depth overview of the Realtors Code of Ethics, outlining the ethical responsibilities of real estate professionals, and the importance of maintaining professionalism and integrity in the industry.'
 excerpt: 'Learn about the Realtors Code of Ethics, which outlines the ethical responsibilities of real estate professionals to ensure professionalism, integrity, and trust in the industry.'
-image: 'https://koala.sh/api/image/v2-dgtrl-v3lmv.jpg?width=1216&height=832&dream'
+image: 'https://res.cloudinary.com/dlvd5p3fl/image/upload/v1718243900/spokane-realtors/realtors-code-of-ethics_cr5ebw.jpg'
 keywords: ['Realtors Code of Ethics', 'real estate ethics', 'NAR standards', 'professional conduct in real estate', 'real estate guidelines']
 categories: 'realtors'
 ---
