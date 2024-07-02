@@ -43,7 +43,7 @@ export const heroHome: HeroProps = {
     <>
       {/* Free template for <span className="hidden md:inline">starts a website using</span> <span>Next.js</span> +{' '}
       <span className="sm:whitespace-nowrap">Tailwind CSS</span> */}
-      Find Your Dream Home in Spokane
+      Spokane Realtors
     </>
   ),
   subtitle: (
