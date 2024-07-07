@@ -3,7 +3,7 @@ publishDate: 'Nov 02 2022'
 title: 'Spokane Realtors: Your Guide to Finding the Best Real Estate Agent in Spokane'
 description: 'Discover the top Spokane Realtors and get expert advice on navigating the Spokane real estate market. Learn how to find the best real estate agent in Spokane for buying, selling, and managing properties.'
 excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
-image: 'https://res.cloudinary.com/dlvd5p3fl/image/upload/v1717110297/spokane-realtors_nfpcng.jpg'
+image: 'https://res.cloudinary.com/dlvd5p3fl/image/upload/v1718243291/spokane-realtors/realtor-fees_q65fdt.png'
 keywords: [spokane, realtors, real state, washington]
 categories: 'realtors'
 ---
