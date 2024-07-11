@@ -23,18 +23,4 @@ module.exports = {
       },
     ],
   },
-  async redirects() {
-    return [
-      {
-        source: '/',
-        destination: 'https://spokane-realtors.com/',
-        permanent: true,
-      },
-      {
-        source: '/:path*',
-        destination: 'https://spokane-realtors.com/:path*',
-        permanent: true,
-      },
-    ]
-  },
 };
