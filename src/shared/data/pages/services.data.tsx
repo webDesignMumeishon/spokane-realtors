@@ -85,23 +85,28 @@ export const features2Services: FeaturesProps = {
 export const contentServicesOne: ContentProps = {
   id: 'contentOne-on-services-one',
   hasBackground: false,
-  content:
-    'Ne dicta praesent ocurreret has, diam theophrastus at pro. Eos etiam regione ut, persius eripuit quo id. Sit te euismod tacimates.',
+  content: 'Making it Easy: A Simple Guide to Our Process',
   items: [
     {
-      title: 'Per ei quaeque sensibus',
-      description:
-        'Ex usu illum iudico molestie. Pro ne agam facete mediocritatem, ridens labore facete mea ei. Pro id apeirian dignissim.',
+      title: 'Step 1: Initial Consultation',
+      description: 'We begin with a no-obligation consultation to understand your needs, preferences, and budget. This is your opportunity to outline your goals and ask any questions you have about the process.',
     },
     {
-      title: 'Cu imperdiet posidonium sed',
+      title: 'Step 2: Customized Plan',
       description:
-        'Amet utinam aliquando ut mea, malis admodum ocurreret nec et, elit tibique cu nec. Nec ex maluisset inciderint, ex quis.',
+        'Based on our discussion, we create a personalized plan. For buyers, this includes identifying suitable properties. For sellers, we develop a marketing strategy to attract the right buyers and prepare your property for listing.',
     },
     {
-      title: 'Nulla omittam sadipscing mel ne',
-      description:
-        'At sed possim oporteat probatus, justo graece ne nec, minim commodo legimus ut vix. Ut eos iudico quando soleat, nam modus.',
+      title: 'Step 3: Property Tours and Marketing',
+      description: 'For buyers, we schedule and conduct tours of selected properties, providing insights and detailed information. For sellers, we handle all marketing efforts, including showings and open houses, to ensure your property stands out.',
+    },
+    {
+      title: 'Step 4: Negotiation and Offers',
+      description: 'When you’re ready to make an offer or receive offers, we guide you through the negotiation process, ensuring your interests are well-represented. We help craft competitive offers for buyers and evaluate and negotiate offers for sellers.',
+    },
+    {
+      title: 'Step 5: Closing and Beyond',
+      description: 'We assist with all the necessary paperwork and coordination with relevant parties to ensure a smooth closing. After the sale, we continue to support you with any additional needs or questions you might have.',
     },
   ],
   image: {

@@ -3,10 +3,8 @@ const SITE = require('./src/config.js').SITE;
 /** @type {import('next').NextConfig} */
 module.exports = {
   reactStrictMode: true,
-
   trailingSlash: SITE.trailingSlash,
   basePath: SITE.basePathname !== '/' ? SITE.basePathname : '',
-
   swcMinify: true,
   poweredByHeader: false,
   images: {
@@ -24,5 +22,19 @@ module.exports = {
         hostname: 'source.unsplash.com',
       },
     ],
-  }
+  },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: 'https://spokane-realtors.com/',
+        permanent: true,
+      },
+      {
+        source: '/:path*',
+        destination: 'https://spokane-realtors.com/:path*',
+        permanent: true,
+      },
+    ]
+  },
 };

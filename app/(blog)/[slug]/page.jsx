@@ -19,7 +19,9 @@ export async function generateMetadata({ params }) {
     return notFound();
   }
   return {
-    title: post.title, description: post.description, alternates: {
+    title: post.title,
+    description: post.description,
+    alternates: {
       canonical: `${SITE.origin}${params.slug}`,
     },
     keywords: post.keywords

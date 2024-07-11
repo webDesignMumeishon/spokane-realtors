@@ -23,14 +23,18 @@ const Content = ({
   >
     {header && <Headline header={header} titleClass="text-3xl sm:text-5xl" />}
     <div className="mx-auto max-w-7xl">
-      <div className={`md:flex ${isReversed ? 'md:flex-row-reverse' : ''} md:gap-16`}>
+      <div className={` md:gap-16`}>
         <div className="self-center md:basis-1/2">
-          {content && <div className="mb-8 lg:mb-12 text-lg text-gray-600 dark:text-slate-400">{content}</div>}
+          {content &&
+            <div className="mb-8 lg:mb-12 text-3xl text-gray-600 dark:text-slate-400 text-center">
+              <h2>{content}</h2>
+            </div>
+          }
           <ItemGrid
             items={items}
             columns={1}
             defaultIcon={IconCheck}
-            containerClass="gap-4 md:gap-y-6"
+            containerClass="gap-4 md:gap-y-6 lg:grid-flow-col max-w-full"
             panelClass="flex max-w-full"
             titleClass="text-lg font-medium leading-6 text-gray-900 dark:text-white mt-1 mb-2"
             descriptionClass="mt-1 text-gray-600 dark:text-slate-400"
@@ -38,7 +42,7 @@ const Content = ({
           />
         </div>
         <div className="mt-10 md:mt-0 md:basis-1/2">
-          {image && (
+          {/* {image && (
             <div className="relative m-auto max-w-4xl">
               <Image
                 className="mx-auto w-full rounded-lg shadow-lg bg-gray-400 dark:bg-slate-700"
@@ -50,7 +54,7 @@ const Content = ({
                 quality={50}
               />
             </div>
-          )}
+          )} */}
         </div>
       </div>
     </div>

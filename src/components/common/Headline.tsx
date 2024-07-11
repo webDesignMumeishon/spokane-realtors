@@ -20,7 +20,7 @@ const Headline = ({ header, containerClass, titleClass, subtitleClass }: Headlin
               {tagline}
             </p>
           )}
-          {title && <h2 className={twMerge(`font-heading mb-4 font-bold tracking-tight`, titleClass)}>{title}</h2>}
+          {title && <h1 className={twMerge(`font-heading mb-4 font-bold tracking-tight`, titleClass)}>{title}</h1>}
           {subtitle && (
             <p
               className={twMerge(
