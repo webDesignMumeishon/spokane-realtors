@@ -1,5 +1,6 @@
 ---
 title: 'Realtors Fees: Understanding Costs for Buying and Selling Homes'
+publishDate: 'Jul 04 2024'
 description: 'Learn about the various costs involved in real estate transactions, with a focus on realtors fees. Discover how commission rates are structured, factors influencing fees, negotiation tips, and alternative fee structures.'
 excerpt: 'Discover the intricacies of realtors fees, including commission rates, influencing factors, negotiation tips, and alternative fee structures for buying and selling homes.'
 image: 'https://res.cloudinary.com/dlvd5p3fl/image/upload/v1718243291/spokane-realtors/realtor-fees_q65fdt.png'

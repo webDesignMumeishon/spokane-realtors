@@ -1,5 +1,5 @@
 ---
-publishDate: '2024-06-12'
+publishDate: 'Jul 04 2024'
 title: 'Realtors Code of Ethics: Understanding the Guidelines for Professional Conduct'
 description: 'An in-depth overview of the Realtors Code of Ethics, outlining the ethical responsibilities of real estate professionals, and the importance of maintaining professionalism and integrity in the industry.'
 excerpt: 'Learn about the Realtors Code of Ethics, which outlines the ethical responsibilities of real estate professionals to ensure professionalism, integrity, and trust in the industry.'
